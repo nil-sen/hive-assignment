@@ -1,8 +1,8 @@
-Objective
+# Objective
 
 The assignment is meant for you to apply the learnings of the module on Hive on a real-life dataset. One of the major objectives of this assignment is to gain familiarity on performing analytics with Hive.
 
-Problem Statement
+# Problem Statement
 
 New York City is a thriving metropolis and like most other cities of its size, one of the biggest problems faced by its residents is the lack of parking space. The classic combination of a huge number of cars and cramped geography is the exact recipe that leads to a large number of parking tickets.In an attempt to scientifically analyse this phenomenon, the NYC Police Department regularly collects data related to parking tickets. This data is made available by the NYC Open Data portal. Your job is to try and perform some analysis on this data, in order to answer the questions that follow.
 Note: The data for 2017 has been uploaded on an S3 bucket at the following link: "s3://hiveassignmentdatabde/Parking_Violations_Issued_-_Fiscal_Year_2017.csv".
@@ -11,13 +11,13 @@ You need to copy this data to your own bucket and then run the required queries.
 
 The analysis can be divided into two parts:
 
-Part-I: Examine the data
+# Part-I: Examine the data
 
 1.  Find the total number of tickets for the year.
 2.  Find out the total number of states to which the cars with tickets belong. The count of states is mandatory here, providing the exact list of states is optional.
 3.  Some parking tickets don’t have addresses on them, which is a cause for concern. Find out the number of such tickets, which have no addresses. (i.e. tickets where one of the Street Codes, i.e. "Street Code 1" or "Street Code 2" or "Street Code 3" is empty)
 
-Part-II: Aggregation tasks
+# Part-II: Aggregation tasks
 
 1.  What are the top 5 most frequently occurring violation codes? (Note that frequency means the number of occurrences over a time period. The list should be in descending order)
 2.  How often does each vehicle body type get a parking ticket? How about the vehicle make? (List the top 5 for both)
