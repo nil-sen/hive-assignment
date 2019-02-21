@@ -1,5 +1,3 @@
-Problem Statement
-
 Objective
 
 The assignment is meant for you to apply the learnings of the module on Hive on a real-life dataset. One of the major objectives of this assignment is to gain familiarity on performing analytics with Hive.
